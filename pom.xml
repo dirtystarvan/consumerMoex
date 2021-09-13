@@ -28,21 +28,21 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>kee.trade.data.legacy.datacollector.collect</groupId>
-            <artifactId>data-collector</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.telegram</groupId>
-                    <artifactId>telegrambots</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>commons-logging</groupId>
-                    <artifactId>commons-logging</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>kee.trade.data.legacy.datacollector.collect</groupId>-->
+<!--            <artifactId>data-collector</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.telegram</groupId>-->
+<!--                    <artifactId>telegrambots</artifactId>-->
+<!--                </exclusion>-->
+<!--                <exclusion>-->
+<!--                    <groupId>commons-logging</groupId>-->
+<!--                    <artifactId>commons-logging</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
